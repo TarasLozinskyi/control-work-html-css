@@ -1,0 +1,87 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #2B2C34;
+}
+
+
+.header{
+    height: 86px;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 1250px;
+}
+
+.header-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.logo span{
+    color:  #6246EA;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.menu-link{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+
+}
+
+.menu-list :nth-child(4) ::before{
+    content: url("../img/search.svg");
+    width: 17px;
+    height: 17px;
+
+
+}
+
+.menu-list :last-child .menu-link{
+    display: flex;
+    padding: 10px 17px;
+    gap: 10px;
+    border-radius: 4px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.menu-list :last-child ::before{
+   content: url("../img/buymeacoffee.svg");
+}
+
+
+
+
+
+
