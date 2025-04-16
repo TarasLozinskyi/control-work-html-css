@@ -41,6 +41,9 @@ body{
     font-weight: 700;
 }
 
+.navbar{
+    display: none;
+}
 
 .menu-list{
     display: flex;
@@ -51,13 +54,13 @@ body{
 
 
 .menu-link{
-    font-size: 20px;
-    font-weight: 700;
+
     text-transform: capitalize;
     display: flex;
     gap: 10px;
     align-items: center;
-
+    font-size: 20px;
+    font-weight: 700;
 
 
 }
@@ -98,6 +101,7 @@ body{
 .banner__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .banner__container-content{
@@ -125,7 +129,6 @@ body{
 .banner__container-content p::before{
   content: '';
     width: 3px ;
-    height:100%;
     background: #2B2C34;
 }
 
@@ -169,6 +172,12 @@ body{
     font-weight: 400;
 }
 
+.banner__container img{
+width: 470px;
+    height: 387px;
+}
+
+
 /*-------------------------category----------------*/
 
 
@@ -179,7 +188,7 @@ body{
 }
 
 .category__container{
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 50px;
 }
@@ -224,7 +233,7 @@ body{
 
     padding: 65px 0 0 30px;
     gap: 30px;
-    width: 220px;
+
     height: 280px;
     border-radius: 8px;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
@@ -303,6 +312,7 @@ article{
     display: grid;
     grid-template-columns: repeat(4, 300px);
     justify-content: space-between;
+
 }
 
 .article__card{
@@ -318,6 +328,9 @@ article{
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+.card-content>img{
+    border-radius: 12px;
 }
 
 .article__card>img{
@@ -391,8 +404,8 @@ article{
 
 }
 .subscription__content img {
-    width: 80.066px;
-    height: 106.755px;
+    width: 80px;
+    height: 106px;
 }
 .subscription__content h2 {
     color:  #2B2C34;
@@ -448,9 +461,64 @@ article{
     font-size: 20px;
     font-weight: 400;
 }
+/*-----------footer------------------------*/
 
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px ;
+    background: #E4E5E9;
+}
 
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid  #C0C0C0;
+    padding-bottom: 50px;
+}
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
+
+.footer__social p{
+    font-size: 18px;
+
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__menu{
+    display: flex;
+    gap: 95px;
+}
+
+.footer__menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer__menu ul li:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.footer__menu ul li{
+    font-size: 18px;
+
+}
+.footer__text-bottom{
+    padding: 26px 0;
+}
 
 
 

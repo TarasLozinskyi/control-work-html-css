@@ -1,0 +1,121 @@
+@media screen and (max-width: 1080px) {
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        padding: 7px 7px;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .burger-menu span {
+        height: 3px;
+        width: 25px;
+        background-color: black;
+    }
+
+    .nav-links li a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 86px;
+        flex-direction: column;
+        background-color: white;
+        max-width: 300px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+    }
+
+    .nav-links li {
+        display: flex;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .nav-links :nth-child(4) ::before {
+        content: url("../img/search.svg");
+        margin: 5px;
+        width: 17px;
+        height: 17px;
+    }
+
+    .nav-links :last-child a {
+        display: flex;
+        padding: 10px 17px;
+        gap: 10px;
+        width: 100%;
+        border-radius: 4px;
+        background: #6246EA;
+        color: #FFFFFE;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+
+    }
+
+    .nav-links :last-child ::before {
+        content: url("../img/buymeacoffee.svg");
+    }
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .substribe {
+        display: flex;
+        margin: 58px 0;
+        flex-direction: column;
+    }
+
+    .substribe .email {
+        margin-right: 0;
+        padding: 21px 120px 21px 25px;
+        margin-bottom: 20px;
+    }
+
+    .banner__container-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: capitalize;
+        max-width: 617px;
+    }
+
+    .category__container-cards {
+        grid-template-columns: repeat(3, 220px);
+
+    }
+
+    .article__cards {
+        grid-template-columns: repeat(2, 48%);
+    }
+
+    .footer__container {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+
+}
+
+
+

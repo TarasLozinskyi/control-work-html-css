@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .category__container-cards {
+        grid-template-columns: repeat(2, 220px);
+        justify-content: space-evenly;
+        gap: 20px;
+
+    }
+
+    .category {
+
+        padding: 69px 0;
+    }
+
+    .article__cards {
+        grid-template-columns: repeat(1, 100%);
+        gap: 40px;
+    }
+
+    .article__card {
+
+        padding: 0;
+    }
+
+    .subscription__content {
+        padding: 0 20px;
+        max-width: 696px;
+        width: 100%;
+    }
+
+    .subscription__form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscription__form .email {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 21px 0 21px 25px;
+
+    }
+
+    .subscription__content p {
+
+        text-align: left;
+
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+
+
+}

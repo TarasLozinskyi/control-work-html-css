@@ -1,0 +1,27 @@
+@media screen and (max-width: 1250px) {
+    .category__container-cards {
+        grid-template-columns: repeat(4, 220px);
+        gap: 40px;
+
+    }
+
+    .article__cards {
+        grid-template-columns: repeat(3, 32%);
+        gap: 20px;
+    }
+
+
+    .article__card {
+        height: 380px;
+        max-width: 1000px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .card-content > img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}

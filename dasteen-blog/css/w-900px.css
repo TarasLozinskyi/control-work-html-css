@@ -1,0 +1,31 @@
+@media screen and (max-width: 900px) {
+    .banner {
+        padding: 64px 0 64px 0;
+    }
+
+
+    .banner__container {
+        flex-direction: column-reverse;
+    }
+
+    .banner__container-content {
+        gap: 20px;
+    }
+
+    .substribe {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .substribe .email {
+        padding: 21px 0 21px 25px;
+    }
+
+    .footer__menu {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+
+}

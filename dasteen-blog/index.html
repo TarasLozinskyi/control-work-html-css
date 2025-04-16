@@ -7,8 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w-1250px.css">
+    <link rel="stylesheet" href="css/w-1080px.css">
+    <link rel="stylesheet" href="css/w-900px.css">
+    <link rel="stylesheet" href="css/w-768px.css">
+    <link rel="stylesheet" href="css/w-480px.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
     <title>Dasteen-Blog</title>
 </head>
 <body>
@@ -24,6 +34,20 @@
                     <li class="menu-item"><a href="#about-me" class="menu-link">About Me</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Search</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">buy Me a Coffee</a></li>
+                </ul>
+            </nav>
+            <nav class="navbar">
+                <div class="burger-menu" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#about-me" class="">About Me</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">buy Me a Coffee</a></li>
                 </ul>
             </nav>
         </div>
@@ -96,12 +120,12 @@
     </div>
 </section>
 
-<article class="article__featured article">
+<article class="article__featured article"  >
     <div class="wrapper">
         <div class="article__featured-container">
             <div class="titles">
                 <h2>Featured Article</h2>
-                <div>See All Article</div>
+                <div><a href="#">See All Article</a></div>
             </div>
             <div class="article__cards">
                 <a href="#">
@@ -155,7 +179,7 @@
                             <img src="img/avatar.svg" alt="avatar">
                             <div class="date">
                                 <h4>Dasteen</h4>
-                                <p>Jan 10, 2022  ∙  3 min read</p>
+                                <p>Jan 10, 2022 ∙ 3 min read</p>
                             </div>
                         </div>
                     </div>
@@ -165,12 +189,12 @@
     </div>
 </article>
 
-<article class="article__css article">
+<article class="article__css article" id="css">
     <div class="wrapper">
         <div class="article__featured-container">
             <div class="titles">
                 <h2>CSS</h2>
-                <div>See All Article</div>
+                <div><a href="#">See All Article</a></div>
             </div>
             <div class="article__cards">
                 <a href="#">
@@ -224,7 +248,7 @@
                             <img src="img/avatar.svg" alt="avatar">
                             <div class="date">
                                 <h4>Dasteen</h4>
-                                <p>Jan 10, 2022  ∙  3 min read</p>
+                                <p>Jan 10, 2022 ∙ 3 min read</p>
                             </div>
                         </div>
                     </div>
@@ -234,12 +258,12 @@
     </div>
 </article>
 
-<article class="article__js article">
+<article class="article__js article" id="js">
     <div class="wrapper">
         <div class="article__featured-container">
             <div class="titles">
                 <h2>javascript</h2>
-                <div>See All Article</div>
+                <div><a href="#">See All Article</a></div>
             </div>
             <div class="article__cards">
                 <a href="#">
@@ -293,7 +317,7 @@
                             <img src="img/avatar.svg" alt="avatar">
                             <div class="date">
                                 <h4>Dasteen</h4>
-                                <p>Jan 10, 2022  ∙  3 min read</p>
+                                <p>Jan 10, 2022 ∙ 3 min read</p>
                             </div>
                         </div>
                     </div>
@@ -303,12 +327,12 @@
     </div>
 </article>
 
-<article class="article__react article">
+<article class="article__react article" id="react">
     <div class="wrapper">
         <div class="article__featured-container">
             <div class="titles">
                 <h2>React JS</h2>
-                <div>See All Article</div>
+                <div><a href="#">See All Article</a></div>
             </div>
             <div class="article__cards">
                 <a href="#">
@@ -362,7 +386,7 @@
                             <img src="img/avatar.svg" alt="avatar">
                             <div class="date">
                                 <h4>Dasteen</h4>
-                                <p>Jan 10, 2022  ∙  3 min read</p>
+                                <p>Jan 10, 2022 ∙ 3 min read</p>
                             </div>
                         </div>
                     </div>
@@ -370,7 +394,7 @@
 
 
             </div>
-            <div class="article__button">
+            <div class="article__button" id="more">
                 <button class="article__more">
                     More Article
                 </button>
@@ -393,6 +417,67 @@
     </div>
 </section>
 
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <div class="footer__social">
+                <div class="logo">Dasteen<span>.blog</span></div>
+                <p>Digitaldastin by Dastin Darmawan</p>
+                <div class="social">
+                    <a href="#">
+                        <img src="img/medium-monogram.svg" alt="medium-monogram">
+                    </a>
+                    <a href="#">
+                        <img src="img/twitter.svg" alt="twitter">
+                    </a>
+                    <a href="#">
+                        <img src="img/instagram.svg" alt="instagram">
+                    </a>
+                    <a href="#">
+                        <img src="img/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+            </div>
 
+            <div class="footer__menu">
+                <ul class="category__menu">
+                    <li>Category</li>
+                    <li><a href="#css">CSS</a></li>
+                    <li><a href="#js">Javascript</a></li>
+                    <li><a href="#">Tailwind</a></li>
+                    <li><a href="#react">React JS</a></li>
+                    <li><a href="#more">More Category</a></li>
+                </ul>
+                <ul class="about-me__menu">
+                    <li>About Me</li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Achievement</a></li>
+                </ul>
+
+                <ul class="get-in-touch__menu">
+                    <li>About Me</li>
+                    <li><a href="tel:+62-8XXX-XXX-XX">+62-8XXX-XXX-XX</a></li>
+                    <li><a href="mailto:demo@gmail.com">demo@gmail.com</a></li>
+                </ul>
+                <ul class="follow-us__menu">
+                    <li>Follow Us</li>
+                    <li><a href="#">Medium</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <p class="footer__text-bottom">
+            © 2025 Digitaldastin
+        </p>
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
 </body>
 </html>
