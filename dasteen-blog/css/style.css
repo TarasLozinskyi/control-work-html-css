@@ -1,15 +1,15 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: "Plus Jakarta Sans", sans-serif;
     color: #2B2C34;
-   background: #EFF0F3;
+    background: #EFF0F3;
 }
 
 
-.header{
+.header {
     height: 86px;
     background: #fff;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
@@ -17,43 +17,42 @@ body{
     justify-content: center;
 }
 
-.wrapper{
+.wrapper {
     width: 1250px;
     padding: 0 20px;
 }
 
-.header-container{
+.header-container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     color: #001858;
     font-size: 36px;
     font-weight: 600;
 }
 
-.logo span{
-    color:  #6246EA;
+.logo span {
+    color: #6246EA;
     font-size: 18px;
     font-weight: 700;
 }
 
-.navbar{
+.navbar {
     display: none;
 }
 
-.menu-list{
+.menu-list {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
 
-
-.menu-link{
+.menu-link {
 
     text-transform: capitalize;
     display: flex;
@@ -65,7 +64,7 @@ body{
 
 }
 
-.menu-list :nth-child(4) ::before{
+.menu-list :nth-child(4) ::before {
     content: url("../img/search.svg");
     width: 17px;
     height: 17px;
@@ -73,7 +72,7 @@ body{
 
 }
 
-.menu-list :last-child .menu-link{
+.menu-list :last-child .menu-link {
     display: flex;
     padding: 10px 17px;
     gap: 10px;
@@ -85,61 +84,63 @@ body{
     text-transform: capitalize;
 
 }
-.menu-list :last-child ::before{
-   content: url("../img/buymeacoffee.svg");
+
+.menu-list :last-child ::before {
+    content: url("../img/buymeacoffee.svg");
 }
 
 /*--------------------------banner------------------------------*/
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 164px 0 263px 0;
 }
 
-.banner__container{
+.banner__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner__container-content{
+.banner__container-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 33px;
 }
 
-.banner__container-content h1{
+.banner__container-content h1 {
     font-size: 64px;
     font-weight: 700;
     text-transform: capitalize;
     max-width: 617px;
 }
 
-.banner__container-content p{
-    display:flex;
+.banner__container-content p {
+    display: flex;
     color: #9A9494;
     font-size: 20px;
     font-weight: 400;
-    gap:12px
+    gap: 12px
 
 }
-.banner__container-content p::before{
-  content: '';
-    width: 3px ;
+
+.banner__container-content p::before {
+    content: '';
+    width: 3px;
     background: #2B2C34;
 }
 
 
-.substribe{
+.substribe {
     display: flex;
     margin: 58px 0;
 
 }
 
-.substribe .email{
+.substribe .email {
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
@@ -153,11 +154,11 @@ body{
 
 }
 
-.substrinbe__button{
+.substrinbe__button {
     height: 67px;
     padding: 20px 23px 19px 23px;
     align-items: center;
-    color:  #FFFFFE;
+    color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
@@ -166,14 +167,14 @@ body{
     border: none;
 }
 
-.substribe .email::placeholder{
+.substribe .email::placeholder {
     color: #C0C0C0;
     font-size: 20px;
     font-weight: 400;
 }
 
-.banner__container img{
-width: 470px;
+.banner__container img {
+    width: 470px;
     height: 387px;
 }
 
@@ -181,29 +182,31 @@ width: 470px;
 /*-------------------------category----------------*/
 
 
-.category{
+.category {
     display: flex;
     justify-content: center;
     padding: 69px 0;
 }
 
-.category__container{
+.category__container {
     display: grid;
     flex-direction: column;
     gap: 50px;
 }
 
-.titles{
+.titles {
     display: flex;
     justify-content: space-between;
 }
-.titles h2{
-    color:  #2B2C34;
+
+.titles h2 {
+    color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
 }
-.titles div{
+
+.titles div {
     color: #2B2C34;
     display: flex;
     gap: 10px;
@@ -213,13 +216,13 @@ width: 470px;
     text-transform: capitalize;
 }
 
-.titles div::after{
+.titles div::after {
     content: url("../img/arrow-right.svg");
 
 }
 
 
-.category__container-cards{
+.category__container-cards {
     display: grid;
     grid-template-columns: repeat(5, 220px);
     justify-content: space-between;
@@ -227,7 +230,7 @@ width: 470px;
 
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
 
@@ -237,30 +240,32 @@ width: 470px;
     height: 280px;
     border-radius: 8px;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-    background:  #FFFFFE;
+    background: #FFFFFE;
     transition: 1s;
 }
 
-.card:hover{
-    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);border-radius: 8px;
+.card:hover {
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+    border-radius: 8px;
     background: #6246EA;
     transition: 1s;
 }
+
 .card h3 {
-    color:  #2B2C34;
+    color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
 }
 
 
-.card:hover h3{
+.card:hover h3 {
     color: white;
     transition: 1s;
 }
 
 
-.card .img-container{
+.card .img-container {
     height: 60px;
     width: 60px;
     display: flex;
@@ -269,13 +274,13 @@ width: 470px;
     background: #fffffe;
 }
 
-.card img{
+.card img {
     width: 35px;
     height: 35px;
 
 }
 
-.category__container-cards :nth-child(2) img{
+.category__container-cards :nth-child(2) img {
     width: 100%;
     height: 100%;
 }
@@ -283,40 +288,44 @@ width: 470px;
 /*-------------------article------------------------*/
 
 
-article{
+article {
     background: #FFFFFE;
     display: flex;
     justify-content: center;
 }
-.article__featured{
+
+.article__featured {
     padding: 82px 0 80px 0;
 }
-.article__css{
-    padding:  0 0 80px 0;
-}
-.article__js{
+
+.article__css {
     padding: 0 0 80px 0;
 }
-.article__react{
+
+.article__js {
+    padding: 0 0 80px 0;
+}
+
+.article__react {
     padding: 0 0 80px 0;
 }
 
 
-.article__featured-container{
+.article__featured-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.article__cards{
+.article__cards {
     display: grid;
     grid-template-columns: repeat(4, 300px);
     justify-content: space-between;
 
 }
 
-.article__card{
-   height: 425px;
+.article__card {
+    height: 425px;
     width: 300px;
     padding: 20px;
     display: flex;
@@ -324,55 +333,61 @@ article{
     justify-content: space-between;
 
 }
-.card-content{
+
+.card-content {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.card-content>img{
+
+.card-content > img {
     border-radius: 12px;
 }
 
-.article__card>img{
+.article__card > img {
     width: 260px;
     height: 198px;
 }
-.article__card h3{
+
+.article__card h3 {
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
     /*padding-top: 25px;*/
 
 }
-.card-info{
+
+.card-info {
     display: flex;
     gap: 15px;
     align-items: center;
 }
-.date{
+
+.date {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.date h4{
+
+.date h4 {
     font-size: 16px;
     font-weight: 600;
 }
 
-.date p{
+.date p {
 
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
 }
 
-.article__button{
+.article__button {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.article__more{
+.article__more {
     margin-top: 60px;
     display: flex;
     padding: 20px 23px 19px 23px;
@@ -380,7 +395,7 @@ article{
     align-items: center;
     gap: 10px;
     border-radius: 8px;
-    background:  #6246EA;
+    background: #6246EA;
     color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
@@ -388,27 +403,29 @@ article{
 }
 
 
-.subscription{
+.subscription {
     background: #EFF0F3;
     display: flex;
     justify-content: center;
-    padding: 58px 0 33px 0 ;
+    padding: 58px 0 58px 0;
 
 }
 
-.subscription__content{
+.subscription__content {
     width: 696px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
 .subscription__content img {
     width: 80px;
     height: 106px;
 }
+
 .subscription__content h2 {
-    color:  #2B2C34;
+    color: #2B2C34;
     font-size: 36px;
     font-weight: 700;
     text-transform: capitalize;
@@ -416,7 +433,7 @@ article{
 }
 
 .subscription__content p {
-    color:  #C0C0C0;
+    color: #C0C0C0;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
@@ -424,12 +441,12 @@ article{
 }
 
 
-.subscription__form{
+.subscription__form {
     display: flex;
 
 }
 
-.subscription__form .email{
+.subscription__form .email {
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
@@ -443,11 +460,11 @@ article{
 
 }
 
-.substrinbe__button{
+.substrinbe__button {
     height: 67px;
     padding: 20px 23px 19px 23px;
     align-items: center;
-    color:  #FFFFFE;
+    color: #FFFFFE;
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
@@ -456,67 +473,70 @@ article{
     border: none;
 }
 
-.subscription__form .email::placeholder{
+.subscription__form .email::placeholder {
     color: #C0C0C0;
     font-size: 20px;
     font-weight: 400;
 }
+
 /*-----------footer------------------------*/
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
-    padding-top: 70px ;
+    padding-top: 70px;
     background: #E4E5E9;
 }
 
-.footer__container{
+.footer__container {
     display: flex;
     justify-content: space-between;
-    border-bottom:1px solid  #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
     padding-bottom: 50px;
 }
-.footer__social{
+
+.footer__social {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
 }
 
-.footer__social p{
+.footer__social p {
     font-size: 18px;
 
 }
 
-.social{
+.social {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.footer__menu{
+.footer__menu {
     display: flex;
     gap: 95px;
 }
 
-.footer__menu ul{
+.footer__menu ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer__menu ul li:first-child{
+.footer__menu ul li:first-child {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 5px;
 }
 
-.footer__menu ul li{
+.footer__menu ul li {
     font-size: 18px;
 
 }
-.footer__text-bottom{
+
+.footer__text-bottom {
     padding: 26px 0;
 }
 
